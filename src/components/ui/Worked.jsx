@@ -1,9 +1,9 @@
 import React from 'react'
-import '../styles/component.css'
+import '../../styles/component.css'
 
 const Worked = () => {
   return (
-    <div className="flex items-center justify-baseline gap-6 w-full h-auto">
+    <div className="flex items-center justify-center mt-4 gap-6 w-full h-auto">
         <button className="worked-buttons">ClickUp</button>
         <button className="worked-buttons">DropBox</button>
         <button className="worked-buttons">PAYCHEX</button>

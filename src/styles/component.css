@@ -10,7 +10,7 @@
     border-bottom-right-radius: 10px;
 }
 .navbar-links {
-    @apply cursor-pointer hover:text-gray-200 transition-colors duration-300;
+    @apply cursor-pointer hover:text-gray-500 text-gray-300 lg:text-gray-100 transition-colors duration-300;
 }
 .navbar-links {
     font-family: "IBM Plex Mono", monospace;
@@ -44,10 +44,22 @@
     font-size: 1.2rem;
 }
 .worked-buttons {
-    width: 200px;
-    height: 50px;
+    width: 75px;
+    height: 25px;
+    padding: 5px;
     color: white;
 }
 .worked-buttons {
-    @apply rounded-lg border-1 border-gray-400 flex items-center justify-center bg-[#080808] hover:bg-[#090909] cursor-pointer shadow-md hover:shadow-white transition-all duration-750;
+    @apply rounded-lg border-1 border-gray-400 flex items-center justify-center bg-[#080808] hover:bg-[#333] hover:border-transparent cursor-pointer shadow-md hover:shadow-white transition-all duration-750 lg:w-[200px] lg:h-[50px];
+}
+.custom-name-text {
+     font-family: "Poppins", sans-serif;
+     font-weight: 800;
+     font-style: normal;
+}
+.footer-input {
+    @apply w-full h-[40px] border-1 border-gray-300 bg-gray-50 text-black px-4 outline-0 rounded-md;
+}
+.image-hover {
+    @apply hover:shadow-gray-400 shadow-xl cursor-pointer transition-shadow duration-300;
 }
