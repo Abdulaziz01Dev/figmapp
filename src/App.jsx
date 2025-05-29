@@ -21,6 +21,10 @@ function App() {
     <div className="overflow-hidden">
       <Helmet>
         <meta name="google-site-verification" content="khioRi2Vik9Puo7C63R8X4BDjR8eTzezPNXLZhEcJm4" />
+        <title>Abdulaziz's Portfolio | React + Tailwind Developer</title>
+        <meta name="description" content="Abdulaziz - Web Developer. My portfolio built with React, TailwindCSS and hosted on Vercel. Check out my recent works and case studies!" />
+        <meta name="keywords" content="Abdulaziz, React developer, Frontend developer, TailwindCSS, Vercel, Portfolio, Web developer Uzbekistan, Abu dev, Abu developer" />
+        <meta name="author" content="Abdulaziz" />
       </Helmet>
 
       <Header />
