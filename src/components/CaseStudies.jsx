@@ -6,7 +6,7 @@ import WorkImage3 from "../assets/work3.png"
 
 const CaseStudies = () => {
   return (
-    <div className="w-full h-screen lg:mt-30 md:mt-40 lg:px-36 relative">
+    <div className="w-full h-screen mt-10 mb-10 lg:px-36">
         <div className="flex flex-col items-center justif-center text-center gap-2 w-full lg:w-50% lg:mx-auto">
             <h1 className="text-bold hero-header" data-aos="fade-down" data-aos-delay="100">Case Studies</h1>
             <p className="hero-paragraph" data-aos="fade-down">Solving user & business problems since last 15+ years. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
