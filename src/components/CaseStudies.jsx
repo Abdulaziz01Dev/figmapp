@@ -7,7 +7,7 @@ import WorkImage3 from "../assets/work3.png"
 const CaseStudies = () => {
   return (
     <div className="w-full h-screen mt-10 mb-10 lg:px-36">
-        <div className="flex flex-col items-center justif-center text-center gap-2 w-full lg:w-50% lg:mx-auto">
+        <div className="flex flex-col items-center justif-center text-center gap-2 w-full lg:w-50% lg:mx-auto z-10">
             <h1 className="text-bold hero-header" data-aos="fade-down" data-aos-delay="100">Case Studies</h1>
             <p className="hero-paragraph" data-aos="fade-down">Solving user & business problems since last 15+ years. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         </div>
@@ -46,7 +46,7 @@ const CaseStudies = () => {
                     <p className="hero-paragraph" data-aos="fade-right" data-aos-delay="300">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                     <button className="text-center w-[200px] h-[40px] bg-amber-600 text-white rounded-xl hover:bg-amber-500 transition-colors duration-500" data-aos="fade-right" data-aos-delay="500">View case study</button>
                 </div>
-                <div className="flex items-center justify-center w-full md:w-[50%]">
+                <div className="lg:flex hidden items-center justify-center w-full md:w-[50%] z-0">
                     <img src={WorkImage3} alt="Bu yerda rasm bo'lishi kerak edi!" data-aos="fade-left" data-aos-delay="700"/>
                 </div>
             </div>
